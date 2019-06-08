@@ -1,7 +1,7 @@
 from string import Template
 
 class MyTemplate(Template):
-    delimiter = '#'
+    delimiter = '#' #normal value is $
 
 def Main():
     cart = []
