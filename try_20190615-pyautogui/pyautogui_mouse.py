@@ -17,4 +17,4 @@ print(pyautogui.position())
 #pyautogui.rightClick(1208,277)
 #pyautogui.middleClick(1208,277)
 
-#pyautogui.displayMousePosition() #live coordinateexit()
+#pyautogui.displayMousePosition() #live coordinateexit() 
