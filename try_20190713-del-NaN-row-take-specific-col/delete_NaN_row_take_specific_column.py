@@ -3,7 +3,7 @@ from pandas import ExcelWriter
 from pandas import ExcelFile
 import numpy as np
 
-df = pd.read_excel('CAETeam.xlsx', sheet_name='Terminplan 2019')
+df = pd.read_excel('k.xlsx', sheet_name='Sheet1')
 print(df.head(5))
 
 #print(df.loc[:,["Unnamed: 5","Unnamed: 33","Unnamed: 34","Unnamed: 35"]])
