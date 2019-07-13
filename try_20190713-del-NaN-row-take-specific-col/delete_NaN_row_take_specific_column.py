@@ -12,4 +12,4 @@ print(df)
 df1 = df[["Unnamed: 5","Unnamed: 33","Unnamed: 34","Unnamed: 35"]]
 print(df1)
 
-#print(df.loc[['AGB Box Evaluation','PP2020']])
+ 
