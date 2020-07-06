@@ -8,4 +8,4 @@ a_file.close()
 
 textfile = open('klm2.txt', 'w')
 textfile.write(string_without_line_breaks)
-textfile.close() 
+textfile.close()
