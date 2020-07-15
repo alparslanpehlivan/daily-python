@@ -2,7 +2,7 @@ import os
 
 keyword = 'findaword'  # ask the user for keyword, use raw_input() on Python 2.x
 
-root_dir = "C:\\o2\\20171204_unity\\oyunBolumleri\\DilPaketleri\\TR"  # path to the root directory to search
+root_dir = "C:\\filepath"  # path to the root directory to search
 for root, dirs, files in os.walk(root_dir, onerror=None):  # walk the root dir
     for filename in files:  # iterate over the files in the current dir
         file_path = os.path.join(root, filename)  # build the file path
